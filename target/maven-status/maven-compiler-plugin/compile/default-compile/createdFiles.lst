@@ -1,0 +1,5 @@
+com/service/cardsnewplatformbackend/controller/NewPlatformController.class
+com/service/cardsnewplatformbackend/CardsNewplatformBackendApplication.class
+com/service/cardsnewplatformbackend/modal/Card.class
+com/service/cardsnewplatformbackend/modal/DebitCards.class
+com/service/cardsnewplatformbackend/modal/Cvv.class
