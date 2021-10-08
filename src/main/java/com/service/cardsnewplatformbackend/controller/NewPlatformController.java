@@ -13,7 +13,7 @@ import com.service.cardsnewplatformbackend.modal.DebitCards;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/api/legacy")
+@RequestMapping("/api/newplatform")
 public class NewPlatformController {
 	
 	@GetMapping(value = "/hello")
@@ -30,10 +30,10 @@ public class NewPlatformController {
 		debitCard.setTypeOfCard("1");
 		debitCard.setBrand("L");
 		debitCard.setNameOnCard("MORRISON LS");
-		debitCard.setCardNumber("4921839943792019");
+		debitCard.setCardNumber("5921839943792019");
 		debitCard.setMaskedCardNumber("XXXX XXXX XXXX 2019");
 		debitCard.setCardId(11222);
-		debitCard.setReplacedBycardNumber("4921839943792045");
+		debitCard.setReplacedBycardNumber("5921839943792045");
 		debitCard.setReplacedCardNumber("");
 		debitCard.setPlasticType("0412");
 		debitCard.setBasePlasticType("0412");
