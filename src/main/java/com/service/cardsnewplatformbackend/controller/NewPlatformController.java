@@ -13,7 +13,7 @@ import com.service.cardsnewplatformbackend.modal.DebitCards;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/api/newPlatform")
+@RequestMapping("/api/legacy")
 public class NewPlatformController {
 	
 	@GetMapping(value = "/hello")
@@ -21,7 +21,7 @@ public class NewPlatformController {
 		return "Hello String";
 	}
 	
-	@GetMapping("/getOldPlafformCards")
+	@GetMapping("/getCard")
 	public Card getCard() {
 		Card card= new Card();
 		List<DebitCards> cardList= new ArrayList<>();
